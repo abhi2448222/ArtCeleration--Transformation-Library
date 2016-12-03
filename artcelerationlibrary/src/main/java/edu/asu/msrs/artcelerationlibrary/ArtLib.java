@@ -174,10 +174,10 @@ public class ArtLib {
     public TransformTest[] getTestsArray(){
         TransformTest[] transforms = new TransformTest[5];
         transforms[0]=new TransformTest(0, new int[]{10}, new float[]{15f});
-        transforms[1]=new TransformTest(1, new int[]{5,10,15,20,25,30,35,255,0,10,20,30,40,50,60,85,0,16,64,80,128,160,192,255}, new float[]{0.5f, 0.6f, 0.3f});
+        transforms[1]=new TransformTest(1, new int[]{32,48,60,60,85,190,195,255,0,16,32,48,80,90,200,255,0,16,64,80,86,92,98,255}, new float[]{0.5f, 0.6f, 0.3f});
         transforms[2]=new TransformTest(2, new int[]{1,5}, new float[]{0.1f, 0.2f, 0.3f});
         transforms[3]=new TransformTest(3, new int[]{5,15}, new float[]{10f,2f});
-        transforms[4]=new TransformTest(4, new int[]{1}, new float[]{4f});
+        transforms[4]=new TransformTest(4, new int[]{0}, new float[]{4f});
 
         return transforms;
     }
