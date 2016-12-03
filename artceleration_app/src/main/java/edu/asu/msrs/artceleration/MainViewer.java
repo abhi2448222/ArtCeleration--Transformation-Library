@@ -21,9 +21,9 @@ import edu.asu.msrs.artcelerationlibrary.TransformHandler;
 import edu.asu.msrs.artcelerationlibrary.TransformTest;
 
 public class MainViewer extends AppCompatActivity {
-    static {
+    /*static {
         System.loadLibrary("native-lib");
-    }
+    }*/
     private Spinner spinner;
     private TextView status1;
     private TextView status2;
